@@ -3,7 +3,8 @@ export class Person{
 //   private address: string;
 
   constructor(
-    public name: string,
+    public firstName: string,
+    public lastName: string = 'No Address',
     private address: string = 'No Address',
   ){
      
